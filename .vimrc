@@ -18,7 +18,7 @@ set nobackup
 "语法高亮显示
 syntax enable
 
-"设置深颜色背景
+"设置深色背景
 set background=dark
 
 "设置主题
