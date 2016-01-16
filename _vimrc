@@ -28,47 +28,48 @@ function MyDiff()
   silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
 endfunction
 
-"ÉèÖÃÎÄ¼şµÄ±àÂë
+"è®¾ç½®æ–‡ä»¶çš„ç¼–ç 
 set encoding=utf-8
 
-"½â¾öĞÅÏ¢ÌáÊ¾µÄÂÒÂë
+"è§£å†³ä¿¡æ¯æç¤ºçš„ä¹±ç 
 language messages zh_CN.utf-8
 
-"½â¾ö²Ëµ¥µÄÂÒÂë
+"è§£å†³èœå•çš„ä¹±ç 
 source $VIMRUNTIME/delmenu.vim
 source $VIMRUNTIME/menu.vim 
 
-"ÉèÖÃ×ÖÌå
+"è®¾ç½®å­—ä½“
 set guifont=Consolas
 
-"ÏÔÊ¾ĞĞºÅ
+"æ˜¾ç¤ºè¡Œå·
 set number
 
-"ÉèÖÃËõ½ø
+"è®¾ç½®ç¼©è¿›
 set tabstop=4 
 set shiftwidth=4
 set expandtab
 
-"×Ô¶¯Ëõ½ø
+"è‡ªåŠ¨ç¼©è¿›
 set autoindent 
 set smartindent 
 
-"²»±£´æ±¸·İÎÄ¼ş
+"ä¸ä¿å­˜å¤‡ä»½æ–‡ä»¶
 set nobackup
 
-"Óï·¨¸ßÁÁÏÔÊ¾
+"è¯­æ³•é«˜äº®æ˜¾ç¤º
 syntax enable
 
-"ÉèÖÃÉîÉ«±³¾°
-set background=dark
-
-"ÉèÖÃÖ÷Ìâ
+"è®¾ç½®ä¸»é¢˜
 "colorscheme molokai
 "let g:molokai_original = 1
 "let g:rehash256 = 1
 colorscheme solarized
+let g:solarized_termcolors=256
 
-"À¨ºÅ×Ô¶¯²¹È«
+"è®¾ç½®æ·±è‰²èƒŒæ™¯
+set background=dark
+
+"æ‹¬å·è‡ªåŠ¨è¡¥å…¨
 inoremap { {}<Esc>i
 inoremap [ []<Esc>i
 inoremap ( ()<Esc>i
