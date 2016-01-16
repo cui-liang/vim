@@ -59,15 +59,12 @@ set nobackup
 "语法高亮显示
 syntax enable
 
-"设置主题
-"colorscheme molokai
-"let g:molokai_original = 1
-"let g:rehash256 = 1
-colorscheme solarized
-let g:solarized_termcolors=256
-
 "设置深色背景
 set background=dark
+
+"设置主题
+"colorscheme molokai
+colorscheme solarized
 
 "括号自动补全
 inoremap { {}<Esc>i
