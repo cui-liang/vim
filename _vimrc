@@ -65,8 +65,3 @@ set background=dark
 "设置主题
 "colorscheme molokai
 colorscheme solarized
-
-"括号自动补全
-inoremap { {}<Esc>i
-inoremap [ []<Esc>i
-inoremap ( ()<Esc>i
