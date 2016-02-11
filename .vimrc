@@ -1,5 +1,8 @@
 set nocompatible
 
+"设置菜单为中文
+set langmenu=zh_CN.UTF-8
+
 "显示行号
 set number
 
@@ -24,8 +27,3 @@ set background=dark
 "设置主题
 "colorscheme molokai
 colorscheme solarized
-
-"括号自动补全
-inoremap { {}<Esc>i
-inoremap [ []<Esc>i
-inoremap ( ()<Esc>i
