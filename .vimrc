@@ -17,6 +17,8 @@ set smartindent
 
 "不保存备份文件
 set nobackup
+set noundofile
+set noswapfile
 
 "语法高亮显示
 syntax enable
